@@ -1,0 +1,261 @@
+.verde{
+	background-color: #1abc9c;
+	height: 130px;
+
+}
+.gris{
+	background-color: #e0ddd8;
+	height: 665px;
+}
+
+.gris2{
+	border: 1px solid #B0C7B9;
+	background-color: #dfdfdf;
+	height: 70px;
+}
+
+/*	margenes*/
+.mar{
+	margin-top: 2%;
+}
+.mar1{
+	margin-top: 1%;
+}
+
+.padding{
+	padding: 10px;
+}
+.circulo{
+	width: 50px;
+	height: 50px;
+	border-radius: 100px;
+}
+
+.mar5{
+	margin-top: 5%;
+}
+.top-10{
+	margin-top: 10%;
+}
+
+.float{
+	float: right;
+}
+
+
+.icon-gray{
+	color: gray;
+}
+/*CONTACTOS*/
+.blanco{
+	background-color: white;
+	border-bottom: 1px solid #B0C7B9;
+	border-left: 1px solid #B0C7B9;
+}
+.b-bottom{
+	background-color: white;
+	border-top: 1px solid #B0C7B9;
+}
+.p-size{
+	font-size: 17px;
+}
+.p-space{
+	color: #aaaaaa;
+
+}
+#scroll-1{
+  	overflow-y: scroll;
+  	height: 535px;
+}
+.form{
+	width: 30%;
+}
+/*mensajes*/
+.fondo{
+	background-image: url("../image/chat-panel-bg.png");
+	width: 100%;
+	height: 485px;
+	background-color: #eeeeee;
+	
+	margin-left: 37%;
+    margin-top: -536px;
+}
+.blanco2{
+	background-color: white;
+	width: 50%;
+	height: 89px;
+	border-radius: 10px;
+	padding: 10px;
+}
+.verde2{
+	background-color: #ccffad;
+	width: 30%;
+	height: 53px;
+	border-radius: 10px;
+	padding: 5px;
+	margin-left: 500px;
+}
+.gris3{
+	background-color: #dfdfdf;
+	border: 1px solid #B0C7B9;
+	width: 104%;
+	height: 50px;
+	margin-top: 5px;
+	margin-left: -15px;
+}
+.font{
+	color: #42bec3;
+}
+.float{
+	float: right;
+}
+.font2{
+	color: #fea5be;
+}
+.font3{
+	color: #3dc895;
+}
+
+.font4{
+	color: #ffe55e;
+}
+#scroll{
+	overflow-y: scroll;
+	height: 480px;
+}
+
+
+
+
+.Buscador {
+	background: url("..") no-repeat 9px center;
+	color: #fff;
+	border: 1px solid #787;
+	border-radius: 3px;
+	padding: 9px 10px 9px 32px;
+	margin: 3px;
+	outline: none;
+	position: relative;
+	right: 0;
+	width: 90%;
+	transition: 1s all ease;
+	
+}
+.tabla, tr, th, td {
+	width: 100%;
+	max-width: 640px;
+	padding: 9px;
+	border: 1px solid #ddd;
+	border-collapse: collapse;
+	margin: 15% auto;
+	background-color:#eee;
+}
+#tabla {
+	position: relative;
+}
+tr.buscador, td.buscador, tr.head, th.head {
+	border: 0;
+}
+td.buscador {
+	padding: 0;
+}
+th.head {
+	padding: 12px;
+	border-bottom: 1px solid #ddd;
+}
+/*clases enviar mensaje*/
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#status {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: blue;
+}
+
+.open {
+  color: green;
+}
+
+
+
+
+ul {
+  list-style: none;
+  font-size: 1rem;
+}
+
+ul li {
+  padding: 0.5rem 0.75rem;
+  border-bottom: 1px solid #EEE;
+}
+
+ul li:first-child {
+  border-top: 1px solid #EEE;
+}
+
+ul li span {
+  display: inline-block;
+  font-weight: bold;
+  color: #999;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background-color: white;
+  width:auto;
+  height: auto;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.sent {
+  background-color: #fff;
+  border-radius: 10px;
+  font-size: 1.5rem;
+}
+.contacto{
+	font-size: 1.2rem;
+	color: blue;
+}
+
+
+#message-form {
+  margin-top: 1.5rem;
+}
+
+textarea {
+      width: 86%;
+    height: 30px;
+  font-size: 2rem;
+  border: 1px solid #D9D9D9;
+  border-radius: 3px;
+
+  min-height: 15px;
+ 
+}
+
+button {
+  display: inline-block;
+  border-radius: 3px;
+  border: none;
+  font-size: 0.9rem;
+  padding: 0.6rem 1em;
+  color: white;
+  margin: 0 0.25rem;
+  text-align: center;
+  background: #BABABA;
+  border-bottom: 1px solid #999;
+
+}
+
+button[type="submit"] {
+  background: #86b32d;
+  border-bottom: 1px solid #5d7d1f;
+}
+
+button:hover {
+  opacity: 0.75;
+  cursor: pointer;
+}
